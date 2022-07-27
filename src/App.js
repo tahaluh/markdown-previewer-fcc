@@ -35,12 +35,11 @@ export default function App () {
   `
  
   const [editorText, setEditorText] = useState(initialState)
-  const [markdown, setMarkdown] = useState('')
+  const [markdown, setMarkdown] = useState(marked.parse(editorText, { breaks: true }))
 
   function handleChange (e) {
     setEditorText(e.target.value);
-    let mama = marked.parse(editorText, { breaks: true })
-    setMarkdown(mama);
+    setMarkdown(marked.parse(editorText, { breaks: true }));
   }
 
   console.log(markdown)
