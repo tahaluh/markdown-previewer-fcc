@@ -39,7 +39,7 @@ export default function App () {
 
   function handleChange (e) {
     setEditorText(e.target.value);
-    setMarkdown(marked.parse(editorText, { breaks: true }));
+    setMarkdown(marked.parse(e.target.value, { breaks: true }));
   }
 
   console.log(markdown)
