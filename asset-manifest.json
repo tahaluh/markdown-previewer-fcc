@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.9ca817b5.css",
-    "main.js": "/my-app/static/js/main.c22790e2.js",
-    "index.html": "/my-app/index.html",
-    "main.9ca817b5.css.map": "/my-app/static/css/main.9ca817b5.css.map",
-    "main.c22790e2.js.map": "/my-app/static/js/main.c22790e2.js.map"
+    "main.css": "/markdown-previewer-fcc/static/css/main.9ca817b5.css",
+    "main.js": "/markdown-previewer-fcc/static/js/main.c22790e2.js",
+    "index.html": "/markdown-previewer-fcc/index.html",
+    "main.9ca817b5.css.map": "/markdown-previewer-fcc/static/css/main.9ca817b5.css.map",
+    "main.c22790e2.js.map": "/markdown-previewer-fcc/static/js/main.c22790e2.js.map"
   },
   "entrypoints": [
     "static/css/main.9ca817b5.css",
